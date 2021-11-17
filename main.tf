@@ -1,8 +1,17 @@
 terraform {
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "manicminer"
+
+    workspaces {
+      name = "terraform-azuread-msgraph-demo"
+    }
+  }
+
   required_providers {
     azuread = {
       source = "hashicorp/azuread"
-      version = "~>2"
+      version = "~> 2"
     }
   }
 }
