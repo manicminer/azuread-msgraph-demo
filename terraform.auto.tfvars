@@ -5,7 +5,6 @@ departments = {
   engineering = [
     "prince",
     "blaze",
-    "penny",
     "chip",
     "ivory",
     "sanic",
@@ -83,6 +82,7 @@ departments = {
     "mewton",
     "kupo",
     "jpeg",
+    "penny",
   ],
 
   marketing = [
